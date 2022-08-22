@@ -4,6 +4,10 @@ const app = express();
 const mongoose = require('mongoose');
 require('dotenv/config');
 
+// npm install cors
+//const cors = require('cors');
+//app.use(cors());
+
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
