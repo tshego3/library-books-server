@@ -1,0 +1,21 @@
+{
+  "name": "library_books_server",
+  "version": "1.0.0",
+  "description": "Library books server API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Server"
+  ],
+  "author": "Tshegofatso Motswagae",
+  "license": "ISC",
+  "dependencies": {
+    "devenv": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}
