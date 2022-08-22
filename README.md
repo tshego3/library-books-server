@@ -7,7 +7,7 @@ NodeJS Cheatsheet:
 	npm init
 
 2. Run the command, to install the packages:
-	npm install express nodemon mongoose devenv
+	npm install express nodemon mongoose devenv body-parser
 
 3. Run the command, to launch the project:
 	npm start
