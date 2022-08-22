@@ -9,7 +9,13 @@ app.use(bodyParser.json());
 
 // Import Routes
 const getRoute = require('./routes/get');
-app.use('/', getRoute)
+app.use('/', getRoute);
+const postRoute = require('./routes/post');
+app.use('/', postRoute);
+const putRoute = require('./routes/put');
+app.use('/', putRoute);
+const deleteRoute = require('./routes/delete');
+app.use('/', deleteRoute);
 
 // MonogoDB Connection
 mongoose.connect(

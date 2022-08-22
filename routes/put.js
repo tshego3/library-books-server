@@ -2,13 +2,13 @@ const express = require('express');
 const router = express.Router();
 const postModel = require('../models/postModel');
 
-router.post('/', async (req, res) => {
-    const post = new postModel({
-        author: req.body.author
-    });
-
+router.patch('/:id', async (req, res) => {
     try{
-        const savePost = await post.save();
+        const document = await postModel.updateOne(
+            { _id: req.params.id },
+            { $set: { author: req.body.author } }
+        );
+        res.json(document);
     }
     catch (err) 
     {

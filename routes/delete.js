@@ -2,13 +2,10 @@ const express = require('express');
 const router = express.Router();
 const postModel = require('../models/postModel');
 
-router.post('/', async (req, res) => {
-    const post = new postModel({
-        author: req.body.author
-    });
-
+router.delete('/:id', async (req, res) => {
     try{
-        const savePost = await post.save();
+        const document = await postModel.remove({ _id: req.params.id });
+        res.json(document);
     }
     catch (err) 
     {
