@@ -28,8 +28,4 @@ router.get('/:id', async (req, res) => {
     }
 });
 
-// router.get('/', (req, res) => {
-//     res.send('Hello world!');
-// });
-
 module.exports = router;
