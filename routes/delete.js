@@ -4,7 +4,7 @@ const libraryBook = require('../models/libraryBookModel');
 
 router.delete('/:id', async (req, res) => {
     try{
-        const document = await libraryBook.remove({ _id: req.params.id });
+        const document = await libraryBook.deleteOne({ _id: req.params.id });
         res.json(document);
     }
     catch (err) 
