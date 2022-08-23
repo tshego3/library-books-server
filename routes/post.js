@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const postModel = require('../models/postModel');
+const libraryBook = require('../models/libraryBookModel');
 
 router.post('/', async (req, res) => {
-    const post = new postModel({
-        author: req.body.author
+    const post = new libraryBook({
+        author: req.body.author,
+        books: req.body.books
     });
 
     try{

@@ -1,12 +1,17 @@
 const express = require('express');
 const router = express.Router();
-const postModel = require('../models/postModel');
+const libraryBook = require('../models/libraryBookModel');
 
 router.patch('/:id', async (req, res) => {
     try{
-        const document = await postModel.updateOne(
+        const document = await libraryBook.updateOne(
             { _id: req.params.id },
-            { $set: { author: req.body.author } }
+            { $set:
+                {
+                    author: req.body.author,
+                    books: req.body.books
+                }    
+            }
         );
         res.json(document);
     }

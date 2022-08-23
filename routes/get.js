@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const postModel = require('../models/postModel');
+const libraryBook = require('../models/libraryBookModel');
 
-router.get('/get', async (req, res) => {
+router.get('/', async (req, res) => {
     try{
-        const documents = await postModel.find();
+        const documents = await libraryBook.find();
         res.json(documents);
     }
     catch (err) 
@@ -17,7 +17,7 @@ router.get('/get', async (req, res) => {
 
 router.get('/:id', async (req, res) => {
     try{
-        const document = await postModel.findById(req.params.id);
+        const document = await libraryBook.findById(req.params.id);
         res.json(document);
     }
     catch (err) 
@@ -28,8 +28,8 @@ router.get('/:id', async (req, res) => {
     }
 });
 
-router.get('/', (req, res) => {
-    res.send('Hello world!');
-});
+// router.get('/', (req, res) => {
+//     res.send('Hello world!');
+// });
 
 module.exports = router;

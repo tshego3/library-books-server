@@ -16,8 +16,8 @@ const getRoute = require('./routes/get');
 app.use('/', getRoute);
 const postRoute = require('./routes/post');
 app.use('/', postRoute);
-const putRoute = require('./routes/put');
-app.use('/', putRoute);
+const patchRoute = require('./routes/patch');
+app.use('/', patchRoute);
 const deleteRoute = require('./routes/delete');
 app.use('/', deleteRoute);
 
@@ -25,7 +25,7 @@ app.use('/', deleteRoute);
 mongoose.connect(
     process.env.DB_CONNECTION,
     { useNewUrlParser: true },
-    () => console.log('MonogoDb connection successful!')
+    () => console.log('MonogoDB connection successful!')
 );
 
 app.listen(3000);
