@@ -20,6 +20,9 @@ app.use('/', patchRoute);
 const deleteRoute = require('./routes/delete');
 app.use('/', deleteRoute);
 
+//app.use('/', express.static(__dirname + '/scripts'));
+//app.use(express.static(__dirname));
+
 // MonogoDB Connection
 mongoose.connect(
     process.env.DB_CONNECTION,

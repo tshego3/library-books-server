@@ -1,4 +1,4 @@
-var SERVER_URL = 'http://localhost:3000';
+var SERVER_URL = 'http://localhost:3000/';
 
 function insertLibraryBook() {
     var libraryBook = {
@@ -33,15 +33,10 @@ function insertLibraryBook() {
             { "title": "Gray Mountain", "year": 2014 }
         ]
     };
-
-    $.post(SERVER_URL + '/saveNewUser', userData, function (data) {
-        alert("New User Created Successfully!");
-
-        sessionStorage.user = JSON.stringify(user);
-        sessionStorage.password = user.newPassword;
-        $("#btnUserUpdate").val("Update");
-        $.mobile.changePage("#pageMenu");
+    
+    $.post(SERVER_URL + '/', libraryBook, function (data) {
+        console.log('New library book(s) created successfully!');
     }).fail(function (error) {
-        alert(error.responseText);
+        console.log(error.responseText)
     });
 };
