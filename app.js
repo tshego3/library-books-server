@@ -11,6 +11,8 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 // Import Routes
+const portalRoute = require('./routes/portal');
+app.use('/', portalRoute);
 const getRoute = require('./routes/get');
 app.use('/', getRoute);
 const postRoute = require('./routes/post');
@@ -19,9 +21,7 @@ const patchRoute = require('./routes/patch');
 app.use('/', patchRoute);
 const deleteRoute = require('./routes/delete');
 app.use('/', deleteRoute);
-
-//app.use('/', express.static(__dirname + '/scripts'));
-//app.use(express.static(__dirname));
+app.use('/', express.static(__dirname + '/scripts'));
 
 // MonogoDB Connection
 mongoose.connect(
