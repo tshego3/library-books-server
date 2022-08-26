@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/:id', async (req, res) => {
+router.get('/search/:id', async (req, res) => {
     try{
         const document = await libraryBook.findById(req.params.id);
         res.json(document);
