@@ -1,5 +1,11 @@
 # library-books-server
 
+<a href="https://repository-manager-server.netlify.app/api/notes/658333fb1e39bf4a9dfc1d6e">Notes Repository</a>
+
+<a href="https://repository-manager-server.netlify.app/api/nexuses/6583394c1e39bf4a9dfc1e81">Nexuses Repository</a>
+
+<a href="https://repository-manager-server.netlify.app/api/vibrations/65833b831e39bf4a9dfc1f85">Vibrations Repository</a>
+
 YouTube Link Used (Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial):
 
 https://youtu.be/vjf774RKrLc
@@ -62,10 +68,13 @@ Get started with Netlify Dev:
 
 <a href="https://answers.netlify.com/t/making-mongoose-work-with-express/72703">Making Mongoose work with Express</a>
 
+<a href="https://docs.netlify.com/environment-variables/get-started/">Get started with environment variables</a>
+
 ```
 netlify dev
 netlify build || npm run build
 netlify deploy
+npm cache clean --force
 ```
 
 7. MongoDB librarybooks collection (table) CRUD functions:
