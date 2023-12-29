@@ -64,6 +64,7 @@ Get started with Netlify Dev:
 
 ```
 netlify dev
+netlify build || npm run build
 netlify deploy
 ```
 
