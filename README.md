@@ -2,7 +2,8 @@
 
 YouTube Link Used (Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial): https://youtu.be/vjf774RKrLc
 Helper Links:
-* https://codeforgeek.com/render-html-file-expressjs/#:~:text=%20Render%20HTML%20file%20in%20Node.js%20and%20Express.js,develop%20a%20simple%20website%20consisting%20of...%20More%20
+
+https://codeforgeek.com/render-html-file-expressjs/#:~:text=%20Render%20HTML%20file%20in%20Node.js%20and%20Express.js,develop%20a%20simple%20website%20consisting%20of...%20More%20
 
 NodeJS Cheatsheet:
 1. Run the command, to create the NodeJS project:
@@ -31,7 +32,8 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-6. Deploy NodeJS App on Netlify
+6. Deploy NodeJS App on Netlify:
+
 <a href="https://docs.netlify.com/integrations/frameworks/express/">Express on Netlify</a>
 
 <a href="https://youtu.be/8x0Dty5D6CA?si=fUqHGOZhKRRxr52X">Deploy NodeJS App on Netlify for Free (Heroku Alternative) | NEW 2023 Tutorial</a>
