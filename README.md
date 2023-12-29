@@ -33,10 +33,15 @@ git config --global user.name "Your Name"
 
 6. Deploy NodeJS App on Netlify
 <a href="https://docs.netlify.com/integrations/frameworks/express/">Express on Netlify</a>
+
 <a href="https://youtu.be/8x0Dty5D6CA?si=fUqHGOZhKRRxr52X">Deploy NodeJS App on Netlify for Free (Heroku Alternative) | NEW 2023 Tutorial</a>
+
 <a href="https://youtu.be/hQAu0YEIF0g?si=C3tFTeZ0udck5QRu">How to deploy express.js on Netlify</a>
+
 <a href="https://youtu.be/OBmhKQhrO6U?si=kegQ20vIA3mk5pzv">Using VS Code with Azure DevOps Git Repos</a>
+
 <a href="https://youtu.be/9JPga11NGUE?si=oOip1RmT7W4rTHkr">How to Deploy a Node.js App in Microsoft Azure | Azure DevOps for creating CI/CD</a>
+
 ```
 npm install netlify-cli -g
 npm install serverless-http netlify-lambda @netlify/functions @types/express
