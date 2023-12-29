@@ -39,6 +39,10 @@ git config --global user.name "Your Name"
 
 <a href="https://docs.netlify.com/integrations/frameworks/express/">Express on Netlify</a>
 
+<a href="https://paulreaney.medium.com/deploy-express-js-on-netlify-91cfaea39591">Deploy express.js on netlify</a>
+
+<a href="https://www.mongodb.com/developer/languages/javascript/developing-web-application-netlify-serverless-functions-mongodb/">Developing a Web Application with Netlify Serverless Functions and MongoDB</a>
+
 <a href="https://youtu.be/8x0Dty5D6CA?si=fUqHGOZhKRRxr52X">Deploy NodeJS App on Netlify for Free (Heroku Alternative) | NEW 2023 Tutorial</a>
 
 <a href="https://youtu.be/hQAu0YEIF0g?si=C3tFTeZ0udck5QRu">How to deploy express.js on Netlify</a>
@@ -51,6 +55,16 @@ git config --global user.name "Your Name"
 npm install netlify-cli -g
 npm install serverless-http netlify-lambda @netlify/functions @types/express
 ```
+
+  Get started with Netlify Dev:
+
+  <a href="https://docs.netlify.com/cli/local-development/">Local development with Netlify CLI</a>
+  
+  <a href="https://answers.netlify.com/t/making-mongoose-work-with-express/72703">Making Mongoose work with Express</a>
+  
+  ```
+  netlify dev
+  ```
 
 7. MongoDB librarybooks collection (table) CRUD functions:
 * GET
