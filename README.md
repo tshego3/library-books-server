@@ -6,16 +6,24 @@ Helper Links:
 
 NodeJS Cheatsheet:
 1. Run the command, to create the NodeJS project:
-	npm init
+```
+npm init
+```
 
 2. Run the command, to install the packages:
-	npm install express nodemon mongoose devenv body-parser cors
+```	
+npm install express nodemon mongoose devenv body-parser cors
+```
 
 3. Run the command, to launch the project:
-	npm start
+```
+npm start
+```
 
 4. Press the shortcut, to stop the project:
-	Ctrl + C (in the node terminal)
+```
+Ctrl + C (in the node terminal)
+```
 
 6. MongoDB librarybooks collection (table) CRUD functions:
 * GET
