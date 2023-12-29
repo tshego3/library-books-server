@@ -12,7 +12,7 @@ npm init
 
 2. Run the command, to install the packages:
 ```	
-npm install express nodemon mongoose devenv body-parser cors
+npm install express nodemon mongoose@6.5.2 devenv body-parser cors
 ```
 
 3. Run the command, to launch the project:
