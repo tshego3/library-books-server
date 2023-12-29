@@ -56,15 +56,16 @@ npm install netlify-cli -g
 npm install serverless-http netlify-lambda @netlify/functions @types/express
 ```
 
-  Get started with Netlify Dev:
+Get started with Netlify Dev:
 
-  <a href="https://docs.netlify.com/cli/local-development/">Local development with Netlify CLI</a>
-  
-  <a href="https://answers.netlify.com/t/making-mongoose-work-with-express/72703">Making Mongoose work with Express</a>
-  
-  ```
-  netlify dev
-  ```
+<a href="https://docs.netlify.com/cli/local-development/">Local development with Netlify CLI</a>
+
+<a href="https://answers.netlify.com/t/making-mongoose-work-with-express/72703">Making Mongoose work with Express</a>
+
+```
+netlify dev
+netlify deploy
+```
 
 7. MongoDB librarybooks collection (table) CRUD functions:
 * GET
