@@ -25,6 +25,12 @@ npm start
 Ctrl + C (in the node terminal)
 ```
 
+5. VS CMD Terminal Source Control Commands:
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 6. MongoDB librarybooks collection (table) CRUD functions:
 * GET
 ```
